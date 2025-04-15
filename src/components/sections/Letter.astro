@@ -1,0 +1,38 @@
+---
+import { Image } from "astro:assets";
+import type { Basics, Global } from "@/cv";
+import Section from "../Section.astro";
+import { getLanguage } from "@/utils/language";
+import LetterWorkImage from "@/assets/carta-de-recomendacion.webp";
+
+const translate = await getLanguage(Astro.currentLocale);
+
+const global = translate.global as Global;
+const basics = translate.basics as Basics;
+---
+
+<Section title={global.letter}>
+  <a
+    href="/carta/carta-de-recomendacion.pdf"
+    title={`${global.sentences_letter[0]} ${basics.name}`}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Image
+      src={LetterWorkImage}
+      alt={`${global.sentences_letter[1]}} ${basics.name}`}
+      loading="lazy"
+    />
+  </a>
+</Section>
+
+<style>
+  a {
+    width: 100%;
+    display: flex;
+  }
+
+  img {
+    width: 100%;
+  }
+</style>

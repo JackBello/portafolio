@@ -14,47 +14,47 @@ import Letter from "@/components/sections/Letter.astro";
 import type { Basics } from "@/cv";
 import { getLanguage } from "@/utils/language";
 
-const basics = (await getLanguage("es")).basics as Basics;
+const basics = (await getLanguage("en")).basics as Basics;
 ---
 
 <Layout title={`portfolio of ${basics.name} - ${basics.label}`}>
-  <main>
-    <header class="no-print">
-      <!-- <LanguageSelector showFlag={true} class="my-select-class" /> -->
-    </header>
+    <main>
+        <header class="no-print">
+            <!-- <LanguageSelector showFlag={true} class="my-select-class" /> -->
+        </header>
 
-    <Hero />
-    <About />
-    <Experience />
-    <Education />
-    <Certificates />
-    <Projects />
-    <Skills />
-    <Languages />
-    <Reference />
-    <Letter />
-  </main>
+        <Hero />
+        <About />
+        <Experience />
+        <Education />
+        <Certificates />
+        <Projects />
+        <Skills />
+        <Languages />
+        <Reference />
+        <Letter />
+    </main>
 
-  <KeyboardManager />
+    <KeyboardManager />
 </Layout>
 
 <style>
-  header {
-    max-width: 700px;
-    margin: 0 auto 48px;
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  main {
-    padding: 4rem;
-    margin: auto;
-    width: 100%;
-  }
-
-  @media (width <= 700px) {
-    main {
-      padding: 2rem;
+    header {
+        max-width: 700px;
+        margin: 0 auto 48px;
+        display: flex;
+        justify-content: flex-end;
     }
-  }
+
+    main {
+        padding: 4rem;
+        margin: auto;
+        width: 100%;
+    }
+
+    @media (width <= 700px) {
+        main {
+            padding: 2rem;
+        }
+    }
 </style>

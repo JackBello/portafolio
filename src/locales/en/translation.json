@@ -1,0 +1,466 @@
+{
+	"global": {
+		"footer": "Click <kbd>Cmd</kbd> + <kbd>K</kbd> to open the command palette.",
+		"hotkeypad": {
+			"placeholder": "Search command",
+			"section_0": "Network",
+			"title_0": "Visit",
+			"section_1": "Actions",
+			"title_1": "Print"
+		},
+		"sentences_letter": [
+			"See letter of recommendation from",
+			"Letter of recommendation from"
+		],
+		"sentences_references": [
+			"Send an e-mail to",
+			"to mail",
+			"Call by phone to",
+			"to number",
+			"Call by whatsapp to",
+			"Call by telegram to"
+		],
+		"sentences_hero": [
+			"Send an e-mail to",
+			"to mail",
+			"Call by phone to",
+			"to number",
+			"Call by whatsapp to",
+			"Call by telegram to",
+			"Visit the profile of",
+			"Visit the portfolio of",
+			"in"
+		],
+		"sentences_projects": ["See the project", "View project source code"],
+		"words": ["See", "Current"],
+		"about": "About me",
+		"experience": "Work experience",
+		"education": "Education",
+		"certificates": "Certificates",
+		"projects": "Projects",
+		"skills": "Skills",
+		"languages": "Languages",
+		"references": "References",
+		"letter": "Letter of Recommendation"
+	},
+	"basics": {
+		"name": "Jacob Israel Bello Acosta",
+		"label": "Full Stack Developer with 5 years of experience",
+		"image": "/me.webp",
+		"email": "jacobello2000@gmail.com",
+		"phone": "+57 3174787381",
+		"url": "https://jackbello.deno.dev",
+		"summary": "5 years of experience as a Web Developer. Layout, Design, Web Application Animation. Database design, software architecture, deploy, Api Rest, creation and maintenance of scalable backend. Use of design patterns. SOLID knowledge.",
+		"location": {
+			"address": "",
+			"postalCode": "110821 ",
+			"city": "Bogota D.C",
+			"countryCode": "ES",
+			"region": "Colombia"
+		},
+		"profiles": [
+			{
+				"network": "LinkedIn",
+				"username": "jack-bello",
+				"url": "https://www.linkedin.com/in/jack-bello/"
+			},
+			{
+				"network": "GitHub",
+				"username": "JackBello",
+				"url": "https://github.com/JackBello"
+			}
+		]
+	},
+	"work": [
+		{
+			"name": "Creative Toolkit",
+			"position": "Web Developer",
+			"url": "https://www.bypeople.com/creative-toolkit",
+			"startDate": "2021-10-02",
+			"endDate": null,
+			"summary": "Creation and analysis of software requirements, detection and correction of errors. Debugging and testing. Optimization, refactoring and code decoupling. Software maintenance. Documentation, performance improvement. Design and layout of websites. Management of social media and AI APIs.",
+			"highlights": [
+				"HTML",
+				"CSS",
+				"JavaScript",
+				"PHP",
+				"Node",
+				"Deno",
+				"MySQL",
+				"SASS",
+				"TypeScript",
+				"Tailwind",
+				"Vue (Vuex, Pinia, VueRouter, Quasar, Vuetify, Buefy, VuePrime)",
+				"Testing",
+				"APIS"
+			]
+		},
+		{
+			"name": "SaludMia EPS",
+			"position": "Systems Technician",
+			"url": "https://www.saludmia.org",
+			"startDate": "2020-04-15",
+			"endDate": "2021-04-15",
+			"summary": "Maintenance and repair of equipment such as computers, routers, wifi, printers, network installation, software management and excel macro programming.",
+			"highlights": [
+				"HTML",
+				"CSS",
+				"JavaScript",
+				"Repair",
+				"Maintenance",
+				"Networks"
+			]
+		}
+	],
+	"volunteer": [
+		{
+			"organization": "Organization",
+			"position": "Volunteer",
+			"url": "https://organization.com/",
+			"startDate": "2012-01-01",
+			"endDate": "2013-01-01",
+			"summary": "Description…",
+			"highlights": ["Awarded 'Volunteer of the Month'"]
+		}
+	],
+	"education": [
+		{
+			"institution": "Servicio Nacional de Aprendizaje SENA",
+			"url": "https://www.sena.edu.co/es-co/Paginas/default.aspx",
+			"area": "Systems Technician",
+			"studyType": "Technician",
+			"startDate": "2020-04-15",
+			"endDate": "2021-04-15",
+			"score": "10.0",
+			"courses": [
+				"Computer repair",
+				"Maintenance",
+				"Networks",
+				"Flow diagrams",
+				"Pseudocode",
+				"Windows Server",
+				"Programming"
+			]
+		},
+		{
+			"institution": "Instituto Suramericano Simón Bolívar",
+			"url": "https://www.suramericanosimonbolivar.com/",
+			"area": "Bachelor's Degree",
+			"studyType": "Secondary",
+			"startDate": "2018-08-15",
+			"endDate": "2018-12-15",
+			"score": "10.0",
+			"courses": []
+		}
+	],
+	"awards": [
+		{
+			"title": "Award",
+			"date": "2014-11-01",
+			"awarder": "Company",
+			"summary": "There is no spoon."
+		}
+	],
+	"certificates": [
+		{
+			"name": "Work certificate SaludMia EPS",
+			"date": "2020-05-11",
+			"issuer": "SaludMia EPS",
+			"file": "/certificados/certificado-de-trabajo.pdf",
+			"url": "https://www.saludmia.org"
+		},
+		{
+			"name": "Office Automation Certificate",
+			"date": "2018-09-1",
+			"issuer": "SENA",
+			"file": "/certificados/certificado-de-ofimatica.pdf",
+			"url": "https://www.sena.edu.co/es-co/Paginas/default.aspx"
+		},
+		{
+			"name": "HTML & CSS Certificate",
+			"date": "2018-09-16",
+			"issuer": "TemplateMonster",
+			"file": "/certificados/certificado-de-html-y-css.webp",
+			"url": "https://certification.templatemonster.com/"
+		}
+	],
+	"publications": [
+		{
+			"name": "Publication",
+			"publisher": "Company",
+			"releaseDate": "2014-10-01",
+			"url": "https://publication.com",
+			"summary": "Description…"
+		}
+	],
+	"skills": [
+		{
+			"name": "HTML",
+			"level": "Master",
+			"keywords": ["Web development", "Frontend"]
+		},
+		{
+			"name": "CSS",
+			"level": "Master",
+			"keywords": [
+				"Web development",
+				"Frontend",
+				"Responsive Design",
+				"Flex",
+				"Grid"
+			]
+		},
+		{
+			"name": "JavaScript",
+			"level": "Master",
+			"keywords": ["Web development", "Frontend", "Backend", "Fullstack"]
+		},
+		{
+			"name": "Tailwind",
+			"level": "Advanced",
+			"keywords": [
+				"Web development",
+				"Frontend",
+				"CSS Framework",
+				"Responsive Design"
+			]
+		},
+		{
+			"name": "TypeScript",
+			"level": "Advanced",
+			"keywords": [
+				"Web development",
+				"Frontend",
+				"Backend",
+				"JavaScript Superset"
+			]
+		},
+		{
+			"name": "Node",
+			"level": "Advanced",
+			"keywords": ["Web development", "Backend", "JavaScript", "Server"]
+		},
+		{
+			"name": "Deno",
+			"level": "Advanced",
+			"keywords": ["Web development", "Backend", "JavaScript", "Server"]
+		},
+		{
+			"name": "PHP",
+			"level": "Intermediate",
+			"keywords": ["Web development", "Backend", "PHP", "Server"]
+		},
+		{
+			"name": "Python",
+			"level": "Basic",
+			"keywords": ["Backend", "Python", "Server"]
+		},
+		{
+			"name": "MySQL",
+			"level": "Intermediate",
+			"keywords": ["Data Base", "SQL", "Data Storage", "Backend"]
+		},
+		{
+			"name": "Git",
+			"level": "Intermediate",
+			"keywords": ["Version Control", "Collaboration", "Source Code"]
+		},
+		{
+			"name": "GitHub",
+			"level": "Intermediate",
+			"keywords": ["Version control", "Collaboration", "Source code", "Git"]
+		},
+		{
+			"name": "Vite",
+			"level": "Intermediate",
+			"keywords": [
+				"Web development",
+				"Frontend",
+				"JavaScript Library",
+				"Bundle"
+			]
+		},
+		{
+			"name": "WebPack",
+			"level": "Intermediate",
+			"keywords": [
+				"Web development",
+				"Frontend",
+				"JavaScript Library",
+				"Bundle"
+			]
+		},
+		{
+			"name": "React",
+			"level": "Basic",
+			"keywords": [
+				"Web development",
+				"Frontend",
+				"JavaScript Library",
+				"UI",
+				"Dynamic Page"
+			]
+		},
+		{
+			"name": "Vue",
+			"level": "Advanced",
+			"keywords": [
+				"Web development",
+				"Frontend",
+				"JavaScript Library",
+				"UI",
+				"Dynamic Page"
+			]
+		},
+		{
+			"name": "Astro",
+			"level": "Intermediate",
+			"keywords": [
+				"Web development",
+				"Frontend",
+				"JavaScript Library",
+				"UI",
+				"Static Page"
+			]
+		},
+		{
+			"name": "Nuxt",
+			"level": "Intermediate",
+			"keywords": [
+				"Web development",
+				"Frontend",
+				"Backend",
+				"JavaScript Library",
+				"UI",
+				"SSR"
+			]
+		},
+		{
+			"name": "Laravel",
+			"level": "Intermediate",
+			"keywords": [
+				"Web development",
+				"Frontend",
+				"Backend",
+				"PHP Framework",
+				"UI",
+				"SSR",
+				"Static Page"
+			]
+		},
+		{
+			"name": "Godot",
+			"level": "Intermediate",
+			"keywords": ["GameDev", "Games", "Graphics"]
+		},
+		{
+			"name": "Poo",
+			"level": "Advanced",
+			"keywords": ["Development", "Frontend", "Backend", "Paradigm"]
+		},
+		{
+			"name": "Api Rest",
+			"level": "Advanced",
+			"keywords": ["Development", "Backend", "Architecture"]
+		},
+		{
+			"name": "UUID",
+			"level": "Advanced",
+			"keywords": [
+				"Web development",
+				"Frontend",
+				"Backend",
+				"JavaScript Library"
+			]
+		},
+		{
+			"name": "Electron",
+			"level": "Advanced",
+			"keywords": [
+				"Software development",
+				"Frontend",
+				"Backend",
+				"JavaScript Library",
+				"Applications"
+			]
+		},
+		{
+			"name": "Fabric",
+			"level": "Advanced",
+			"keywords": [
+				"Web development",
+				"Frontend",
+				"Backend",
+				"JavaScript Library",
+				"Graphics"
+			]
+		}
+	],
+	"languages": [
+		{
+			"language": "Spanish",
+			"fluency": "Native"
+		},
+		{
+			"language": "English",
+			"fluency": "Intermediate (A2)"
+		}
+	],
+	"interests": [
+		{
+			"name": "Wildlife",
+			"keywords": ["Ferrets", "Unicorns"]
+		}
+	],
+	"references": [
+		{
+			"name": "Luis Villamisar",
+			"reference": "Professional",
+			"email": "villaluis9421@gmail.com",
+			"phone": "+57 3143210147"
+		},
+		{
+			"name": "Frank Carlos",
+			"reference": "Professional",
+			"email": "francarlos803@gmail.com",
+			"phone": "+57 3143881730"
+		},
+		{
+			"name": "Juan Pablo",
+			"reference": "Professional",
+			"email": "jp.iconshock@gmail.com",
+			"phone": "+57 3104245680"
+		}
+	],
+	"projects": [
+		{
+			"name": "ByPeople - Quote Maker",
+			"isActive": true,
+			"description": "Quote maker is an automatic design generator that uses phrases from different topics, you can generate infinite designs. Download them, edit them or share them on your social networks.",
+			"highlights": ["Quotes", "Design", "Edition"],
+			"url": "https://www.bypeople.com/quote-maker/",
+			"github": ""
+		},
+		{
+			"name": "ByPeople - Post Sheduler",
+			"isActive": true,
+			"description": "Post Scheduler is a powerful social media manager where you can create posts for your multiple networks, where you can upload images, videos, use photos, gifs, generate automatic layouts, or use the AI-powered text generator. You can share your publication on multiple social networks or schedule it for a specific date.",
+			"highlights": ["Networks", "Social Media Management", "Powered with AI"],
+			"url": "https://www.bypeople.com/maker/scheduler",
+			"github": ""
+		},
+		{
+			"name": "ByPeople - Composer",
+			"isActive": true,
+			"description": "Composer is a content creator for social networks or websites. You can create everything from infographics to presentations. Where you can edit, add images, icons, emojis. Change the different styles. Generate the image, and then download it in PNG, WEBP or PPTX in the case of slides. If you have no idea what to write, no problem. This tool is powered with AI so you can quickly generate content for your content.",
+			"highlights": [
+				"slides",
+				"Infographics",
+				"Automatic Content",
+				"Powered with AI"
+			],
+			"url": "https://www.bypeople.com/composer/infographic",
+			"github": ""
+		}
+	]
+}

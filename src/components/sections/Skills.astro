@@ -1,0 +1,137 @@
+---
+import Section from "../Section.astro";
+import HTML from "@/icons/html.astro";
+import CSS from "@/icons/css.astro";
+import JavaScript from "@/icons/javascript.astro";
+import TypeScript from "@/icons/type.astro";
+import React from "@/icons/react.astro";
+import Node from "@/icons/node.astro";
+import MySQL from "@/icons/sql.astro";
+import Git from "@/icons/git.astro";
+import GitHub from "@/icons/GitHub.astro";
+import Tailwind from "@/icons/tailwind.astro";
+import Next from "@/icons/next.astro";
+import Swift from "@/icons/swift.astro";
+import SwiftUI from "@/icons/swiftui.astro";
+import Kotlin from "@/icons/kotlin.astro";
+import Flutter from "@/icons/flutter.astro";
+import Vue from "@/icons/vue.astro";
+import Deno from "@/icons/deno.astro";
+import PHP from "@/icons/php.astro";
+import Python from "@/icons/python.astro";
+import AstroIcon from "@/icons/astro.astro";
+import Vite from "@/icons/vite.astro";
+import Nuxt from "@/icons/nuxt.astro";
+import Laravel from "@/icons/laravel.astro";
+import Poo from "@/icons/poo.astro";
+import Godot from "@/icons/godot.astro";
+import Uuid from "@/icons/uuid.astro";
+import Webpack from "@/icons/webpack.astro";
+import Electron from "@/icons/electron.astro";
+import Fabric from "@/icons/fabric.astro";
+import Rest from "@/icons/rest.astro";
+import Gitlab from "@/icons/gitlab.astro";
+import Npm from "@/icons/npm.astro";
+import Pnpm from "@/icons/pnpm.astro";
+import Preact from "@/icons/preact.astro";
+import Wordpress from "@/icons/wordpress.astro";
+import Tauri from "@/icons/tauri.astro";
+import Strapi from "@/icons/strapi.astro";
+
+import type { TAnything } from "@/types";
+import type { Global, Skills } from "@/cv";
+import { getLanguage } from "@/utils/language";
+
+const SKILLS_ICONS: Record<string, TAnything> = {
+  HTML,
+  CSS,
+  JavaScript,
+  TypeScript,
+  React,
+  Node,
+  MySQL,
+  Git,
+  GitHub,
+  Next,
+  Tailwind,
+  Swift,
+  SwiftUI,
+  Kotlin,
+  Flutter,
+  Vue,
+  Deno,
+  PHP,
+  Python,
+  Astro: AstroIcon,
+  Vite,
+  Nuxt,
+  Laravel,
+  Poo,
+  Godot,
+  Uuid,
+  Webpack,
+  Electron,
+  Fabric,
+  Rest,
+  Wordpress,
+  Gitlab,
+  Npm,
+  Pnpm,
+  Preact,
+  Tauri,
+  Strapi,
+};
+
+const translate = await getLanguage(Astro.currentLocale);
+
+const skills = translate.skills as Skills[];
+const global = translate.global as Global;
+---
+
+<Section title={global.skills}>
+  <ul>
+    {
+      skills.map(({ name, keywords, level }) => {
+        if (name === "Next.js") {
+          name = "Next";
+        } else if (name === "UUID") {
+          name = "Uuid";
+        } else if (name === "WebPack") {
+          name = "Webpack";
+        } else if (name === "Api Rest") {
+          name = "Rest";
+        } else if (name === "WordPress") {
+          name = "Wordpress";
+        }
+
+        const Icon = SKILLS_ICONS[name];
+
+        return (
+          <li title={keywords.join(", ")}>
+            {Icon && <Icon />} <span>{name}</span> - <span>{level}</span>
+          </li>
+        );
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: inline-flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  li {
+    align-items: center;
+    background: #eee;
+    border-radius: 6px;
+    color: black;
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: 500;
+    gap: 4px;
+    padding: 0.2rem 0.6rem;
+  }
+</style>

@@ -1,0 +1,571 @@
+{
+	"global": {
+		"footer": "Pulsa <kbd>Cmd</kbd> + <kbd>K</kbd> para abrir la paleta de comandos.",
+		"hotkeypad": {
+			"placeholder": "Buscar comando",
+			"section_0": "Social",
+			"title_0": "Visitar",
+			"section_1": "Acciones",
+			"title_1": "Imprimir"
+		},
+		"sentences_letter": [
+			"Ver carta de recomendacion de",
+			"Carta de recomendacion de"
+		],
+		"sentences_references": [
+			"Enviar un correo electrónico a",
+			"al correo",
+			"Llamar por teléfono a",
+			"al número",
+			"Llamar por whatsapp a",
+			"Llamar por telegram a"
+		],
+		"sentences_hero": [
+			"Enviar un correo electrónico a",
+			"al correo",
+			"Llamar por teléfono a",
+			"al número",
+			"Llamar por whatsapp a",
+			"Llamar por telegram a",
+			"Visitar el perfil de",
+			"Visitar el portafolio de",
+			"en"
+		],
+		"sentences_projects": ["Ver el proyecto", "Ver código fuente del proyecto"],
+		"words": ["Ver", "Actual"],
+		"about": "Sobre mí",
+		"experience": "Experiencia laboral",
+		"education": "Educación",
+		"certificates": "Certificados",
+		"projects": "Proyectos",
+		"skills": "Habilidades",
+		"languages": "Idiomas",
+		"references": "Referencias",
+		"letter": "Carta de Recomendacion"
+	},
+	"basics": {
+		"name": "Jacob Israel Bello Acosta",
+		"label": "Full Stack Developer",
+		"image": "/me.webp",
+		"email": "jacobello2000@gmail.com",
+		"phone": "+57 3174787381",
+		"url": "https://jackbello.deno.dev",
+		"summary": "5 años de experiencia como Desarrollador Web. Maquetación, Diseños, Animacion de aplicaciones web. Diseño de base de datos, arquitectura de software, deploy, Api Rest, creación y mantenimiento de backend escalables. Uso de patrones de diseños. Conocimientos de SOLID.",
+		"location": {
+			"address": "",
+			"postalCode": "110821",
+			"city": "Bogota D.C",
+			"region": "Bogota D.C",
+			"countryCode": "CO",
+			"country": "Colombia",
+			"language": "es"
+		},
+		"profiles": [
+			{
+				"network": "LinkedIn",
+				"username": "jack-bello",
+				"url": "https://www.linkedin.com/in/jack-bello/"
+			},
+			{
+				"network": "GitHub",
+				"username": "JackBello",
+				"url": "https://github.com/JackBello"
+			}
+		]
+	},
+	"work": [
+		{
+			"name": "Staffboom",
+			"position": "Desarrollador Web",
+			"url": "https://www.staffboom.com/",
+			"startDate": "2024-10-01",
+			"endDate": "2025-04-08",
+			"summary": "Mantenimiento de sitios web en WordPress, creacion de plantillas, ACF, contact forms. Desarrollo de nuevos sitios webs en Astro, Nuxt o Vue, usando Tailwind y Vite. Desarrollo de aplicaciones web, maquetacion, diseño, animacion.",
+			"highlights": [
+				"HTML",
+				"CSS",
+				"JavaScript",
+				"Node",
+				"PNPM",
+				"Git",
+				"GitLab",
+				"Strapi",
+				"TypeScript",
+				"Tailwind",
+				"Vue (Pinia, Vuetify, Nuxt)",
+				"Testing",
+				"WordPress",
+				"PHP",
+				"APIS"
+			]
+		},
+		{
+			"name": "Creative Toolkit",
+			"position": "Desarrollador Web",
+			"url": "https://www.bypeople.com/creative-toolkit",
+			"startDate": "2021-10-02",
+			"endDate": "2024-9-30",
+			"summary": "Creación y análisis de requisitos de software, detección y corrección de errores. Depuración y pruebas. Optimización, refactorización y desacoplamiento de código. Mantenimiento del software. Documentación, mejora del rendimiento. Diseño y maquetación de sitios web. Manejo de APIS de redes sociales y AI.",
+			"highlights": [
+				"HTML",
+				"CSS",
+				"JavaScript",
+				"PHP",
+				"Node",
+				"Deno",
+				"NPM",
+				"PNPM",
+				"Git",
+				"Github",
+				"MySQL",
+				"SASS",
+				"TypeScript",
+				"Tailwind",
+				"Vue (Vuex, Pinia, VueRouter, Quasar, Vuetify, Buefy, VuePrime)",
+				"Testing",
+				"APIS"
+			]
+		},
+		{
+			"name": "SaludMia EPS",
+			"position": "Tecnico En Sistemas",
+			"url": "https://www.saludmia.org",
+			"startDate": "2020-04-15",
+			"endDate": "2021-04-15",
+			"summary": "Mantenimiento y reparación de los equipos, como computadoras, router, wifi, impresoras, instalación de redes, manejo de programas informáticos y programación de macros en excel.",
+			"highlights": [
+				"HTML",
+				"CSS",
+				"JavaScript",
+				"Reparacion",
+				"Mantenimiento",
+				"Redes"
+			]
+		}
+	],
+	"volunteer": [
+		{
+			"organization": "Organization",
+			"position": "Volunteer",
+			"url": "https://organization.com/",
+			"startDate": "2012-01-01",
+			"endDate": "2013-01-01",
+			"summary": "Description…",
+			"highlights": ["Awarded 'Volunteer of the Month'"]
+		}
+	],
+	"education": [
+		{
+			"institution": "Servicio Nacional de Aprendizaje SENA",
+			"url": "https://www.sena.edu.co/es-co/Paginas/default.aspx",
+			"area": "Tecnico En Sistemas",
+			"studyType": "Tecnico",
+			"startDate": "2020-04-15",
+			"endDate": "2021-04-15",
+			"score": "10.0",
+			"courses": [
+				"Reparacion de computadoras",
+				"Mantenimiento",
+				"Redes",
+				"Diagramas de flujos",
+				"Pseudocodigo",
+				"Windows Server",
+				"Programacion"
+			]
+		},
+		{
+			"institution": "Instituto Suramericano Simón Bolívar",
+			"url": "https://www.suramericanosimonbolivar.com/",
+			"area": "Bachillerato",
+			"studyType": "Secundaria",
+			"startDate": "2018-08-15",
+			"endDate": "2018-12-15",
+			"score": "10.0",
+			"courses": []
+		}
+	],
+	"awards": [
+		{
+			"title": "Award",
+			"date": "2014-11-01",
+			"awarder": "Company",
+			"summary": "There is no spoon."
+		}
+	],
+	"certificates": [
+		{
+			"name": "Certificado de trabajo SaludMia EPS",
+			"date": "2020-05-11",
+			"issuer": "SaludMia EPS",
+			"file": "/certificados/certificado-de-trabajo.pdf",
+			"url": "https://www.saludmia.org"
+		},
+		{
+			"name": "Certificado de Ofimatica",
+			"date": "2018-09-1",
+			"issuer": "SENA",
+			"file": "/certificados/certificado-de-ofimatica.pdf",
+			"url": "https://www.sena.edu.co/es-co/Paginas/default.aspx"
+		},
+		{
+			"name": "Certificado de HTML & CSS",
+			"date": "2018-09-16",
+			"issuer": "TemplateMonster",
+			"file": "/certificados/certificado-de-html-y-css.webp",
+			"url": "https://certification.templatemonster.com/"
+		}
+	],
+	"publications": [
+		{
+			"name": "Publication",
+			"publisher": "Company",
+			"releaseDate": "2014-10-01",
+			"url": "https://publication.com",
+			"summary": "Description…"
+		}
+	],
+	"skills": [
+		{
+			"name": "HTML",
+			"level": "Master",
+			"keywords": ["Desarrollo Web", "Frontend"]
+		},
+		{
+			"name": "CSS",
+			"level": "Master",
+			"keywords": [
+				"Desarrollo Web",
+				"Frontend",
+				"Diseño Responsive",
+				"Flex",
+				"Grid"
+			]
+		},
+		{
+			"name": "JavaScript",
+			"level": "Master",
+			"keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+		},
+		{
+			"name": "Tailwind",
+			"level": "Master",
+			"keywords": [
+				"Desarrollo Web",
+				"Frontend",
+				"CSS Framework",
+				"Diseño Responsive"
+			]
+		},
+		{
+			"name": "TypeScript",
+			"level": "Master",
+			"keywords": [
+				"Desarrollo Web",
+				"Frontend",
+				"Backend",
+				"JavaScript Superset"
+			]
+		},
+		{
+			"name": "Node",
+			"level": "Avanzado",
+			"keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+		},
+		{
+			"name": "Deno",
+			"level": "Avanzado",
+			"keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+		},
+		{
+			"name": "Npm",
+			"level": "Intermedio",
+			"keywords": ["Administrador de paquetes", "dependencias"]
+		},
+		{
+			"name": "Pnpm",
+			"level": "Intermedio",
+			"keywords": ["Administrador de paquetes", "dependencias"]
+		},
+		{
+			"name": "PHP",
+			"level": "Avanzado",
+			"keywords": ["Desarrollo Web", "Backend", "PHP", "Servidor"]
+		},
+		{
+			"name": "Python",
+			"level": "Basico",
+			"keywords": ["Backend", "Python", "Servidor"]
+		},
+		{
+			"name": "MySQL",
+			"level": "Intermedio",
+			"keywords": [
+				"Bases de Datos",
+				"SQL",
+				"Almacenamiento de Datos",
+				"Backend"
+			]
+		},
+		{
+			"name": "Git",
+			"level": "Intermedio",
+			"keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+		},
+		{
+			"name": "GitHub",
+			"level": "Intermedio",
+			"keywords": [
+				"Control de Versiones",
+				"Colaboración",
+				"Código Fuente",
+				"Git"
+			]
+		},
+		{
+			"name": "Gitlab",
+			"level": "Basico",
+			"keywords": [
+				"Control de Versiones",
+				"Colaboración",
+				"Código Fuente",
+				"Git"
+			]
+		},
+		{
+			"name": "Vite",
+			"level": "Avanzado",
+			"keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "Bundle"]
+		},
+		{
+			"name": "WebPack",
+			"level": "Avanzado",
+			"keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "Bundle"]
+		},
+		{
+			"name": "React",
+			"level": "Intermedio",
+			"keywords": [
+				"Desarrollo Web",
+				"Frontend",
+				"JavaScript Library",
+				"UI",
+				"Dynamic Page"
+			]
+		},
+		{
+			"name": "Preact",
+			"level": "Basico",
+			"keywords": [
+				"Desarrollo Web",
+				"Frontend",
+				"JavaScript Library",
+				"UI",
+				"Dynamic Page"
+			]
+		},
+		{
+			"name": "Vue",
+			"level": "Master",
+			"keywords": [
+				"Desarrollo Web",
+				"Frontend",
+				"JavaScript Library",
+				"UI",
+				"Dynamic Page"
+			]
+		},
+		{
+			"name": "Astro",
+			"level": "Avanzado",
+			"keywords": [
+				"Desarrollo Web",
+				"Frontend",
+				"JavaScript Library",
+				"UI",
+				"Static Page"
+			]
+		},
+		{
+			"name": "Nuxt",
+			"level": "Avanzado",
+			"keywords": [
+				"Desarrollo Web",
+				"Frontend",
+				"Backend",
+				"JavaScript Library",
+				"UI",
+				"SSR"
+			]
+		},
+		{
+			"name": "Laravel",
+			"level": "Intermedio",
+			"keywords": [
+				"Desarrollo Web",
+				"Frontend",
+				"Backend",
+				"PHP Framework",
+				"UI",
+				"SSR",
+				"Static Page"
+			]
+		},
+		{
+			"name": "WordPress",
+			"level": "Intermedio",
+			"keywords": [
+				"CMS",
+				"Frontend",
+				"Backend",
+				"PHP",
+				"ACF",
+				"Contact Form",
+				"Headless"
+			]
+		},
+		{
+			"name": "Strapi",
+			"level": "Intermedio",
+			"keywords": ["CMS", "Backend", "Node JS", "Headless"]
+		},
+		{
+			"name": "Godot",
+			"level": "Intermedio",
+			"keywords": ["GameDev", "Games", "Graphics"]
+		},
+		{
+			"name": "Poo",
+			"level": "Avanzado",
+			"keywords": ["Desarrollo", "Frontend", "Backend", "Paradigma"]
+		},
+		{
+			"name": "Api Rest",
+			"level": "Avanzado",
+			"keywords": ["Desarrollo", "Backend", "Arquitecura"]
+		},
+		{
+			"name": "UUID",
+			"level": "Avanzado",
+			"keywords": [
+				"Desarrollo web",
+				"Frontend",
+				"Backend",
+				"JavaScript Library"
+			]
+		},
+		{
+			"name": "Electron",
+			"level": "Avanzado",
+			"keywords": [
+				"Desarrollo de Software",
+				"Frontend",
+				"Backend",
+				"JavaScript Library",
+				"Aplicaciones"
+			]
+		},
+		{
+			"name": "Tauri",
+			"level": "Avanzado",
+			"keywords": [
+				"Desarrollo de Software",
+				"Frontend",
+				"Backend",
+				"JavaScript Library",
+				"Aplicaciones"
+			]
+		},
+		{
+			"name": "Fabric",
+			"level": "Avanzado",
+			"keywords": [
+				"Desarrollo de web",
+				"Frontend",
+				"Backend",
+				"JavaScript Library",
+				"Graphics"
+			]
+		}
+	],
+	"languages": [
+		{
+			"language": "Español",
+			"fluency": "Nativo"
+		},
+		{
+			"language": "Ingles",
+			"fluency": "Intermedio (A2)"
+		}
+	],
+	"interests": [
+		{
+			"name": "Wildlife",
+			"keywords": ["Ferrets", "Unicorns"]
+		}
+	],
+	"references": [
+		{
+			"name": "Luis Villamisar",
+			"reference": "Profesional",
+			"email": "villaluis9421@gmail.com",
+			"phone": "+57 3143210147"
+		},
+		{
+			"name": "Frank Carlos",
+			"reference": "Profesional",
+			"email": "francarlos803@gmail.com",
+			"phone": "+57 3143881730"
+		},
+		{
+			"name": "Juan Pablo",
+			"reference": "Profesional",
+			"email": "jp.iconshock@gmail.com",
+			"phone": "+57 3104245680"
+		},
+		{
+			"name": "Miguel Angel",
+			"reference": "Profesional",
+			"email": null,
+			"phone": "+57 3167106684"
+		}
+	],
+	"projects": [
+		{
+			"name": "Staffboom - Inzsone - R.E. Chaix",
+			"isActive": true,
+			"description": "El rediseño completo del sitio de R.E. Chaix, una compañia de seguros. Se hizo un diseño completamente nuevo, con un enfoque en la usabilidad y la experiencia del usuario. Se utilizo un diseño responsivo, para que el sitio se vea bien en todos los dispositivos. Se implementaron nuevas tecnologias como Astro, Tailwind.",
+			"highlights": ["Insurance", "Headless WP", "Astro", "Tailwind"],
+			"url": "https://rechaixinsurance.com/",
+			"github": ""
+		},
+		{
+			"name": "ByPeople - Quote Maker",
+			"isActive": true,
+			"description": "Quote maker es un generador de diseños automaticos que usa frases de diferentes topicos, puedes generar diseños de forma infinitas. Descargarlos, editarlos o compartirlos en tus redes sociales.",
+			"highlights": ["Quotes", "Design", "Edition"],
+			"url": "https://www.bypeople.com/quote-maker/",
+			"github": ""
+		},
+		{
+			"name": "ByPeople - Post Sheduler",
+			"isActive": true,
+			"description": "Post Scheduler es un potente manejador de redes sociales donde puedes crear publicaciones para tus multiples redes, donde puedes cargar imagenes, videos, usar fotos, gifs, generar diseños automaticos,   o usar el generador de textos potenciado con AI. Puedes compartir tu publicacion en multiples redes sociales o agendarla para una fecha en especifico.",
+			"highlights": ["Networks", "Social Media Management", "Powered with AI"],
+			"url": "https://www.bypeople.com/maker/scheduler",
+			"github": ""
+		},
+		{
+			"name": "ByPeople - Composer",
+			"isActive": true,
+			"description": "Composer es un creador de contenido para redes sociales o sitios web. Puedes crear desde infografias hasta presentaciones. Donde puedes editar, agregarle imagenes, iconos, emojis. Cambiar los diferentes estilos. Generar la imagen, para luego descargarla en PNG, WEBP o PPTX en el caso de los slides. Si no tienes idea de que escribir, no hay problema. Esta herramienta esta potenciada con AI para que generes contenido rapido para tu contenido.",
+			"highlights": [
+				"slides",
+				"Infographics",
+				"Automatic Content",
+				"Powered with AI"
+			],
+			"url": "https://www.bypeople.com/composer/infographic",
+			"github": ""
+		}
+	]
+}

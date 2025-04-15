@@ -1,0 +1,16 @@
+---
+import { getLanguage } from "@/utils/language";
+import Section from "../Section.astro";
+import type { Basics, Global } from "@/cv";
+
+const translate = await getLanguage(Astro.currentLocale);
+
+const global = translate.global as Global;
+const basics = translate.basics as Basics;
+---
+
+<Section title={global.about}>
+  <p>
+    {basics.summary}
+  </p>
+</Section>

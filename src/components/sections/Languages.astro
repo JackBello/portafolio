@@ -1,0 +1,57 @@
+---
+import { getLanguage } from "@/utils/language";
+import Section from "../Section.astro";
+
+import type { Global, Languages } from "@/cv";
+
+const translate = await getLanguage(Astro.currentLocale);
+
+const global = translate.global as Global;
+const languages = translate.languages as Languages[];
+---
+
+<Section title={global.languages}>
+  <ul>
+    {
+      languages.map(({ fluency, language }) => {
+        return (
+          <li>
+            <article>
+              <header>
+                <div>
+                  <h3 aria-label={language}>{language}</h3>
+                  <h4 aria-label={fluency}>{fluency}</h4>
+                </div>
+              </header>
+            </article>
+          </li>
+        );
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  article h3 {
+    font-weight: 500;
+    color: #111;
+  }
+
+  article h4 {
+    color: #222;
+    font-weight: 400;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 5px;
+  }
+</style>

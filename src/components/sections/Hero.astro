@@ -1,0 +1,233 @@
+---
+import { Image } from "astro:assets";
+import Section from "@/components/Section.astro";
+import Mail from "@/icons/Mail.astro";
+import Phone from "@/icons/Phone.astro";
+import Whatsapp from "@/icons/whatsapp.astro";
+import Telegram from "@/icons/telegram.astro";
+import X from "@/icons/X.astro";
+import LinkedIn from "@/icons/LinkedIn.astro";
+import GitHub from "@/icons/GitHub.astro";
+import WorldMap from "@/icons/WorldMap.astro";
+import type { Basics, Global } from "@/cv";
+import type { TAnything } from "@/types";
+import { getLanguage } from "@/utils/language";
+
+const translate = await getLanguage(Astro.currentLocale);
+
+const global = translate.global as Global;
+
+const { name, label, image, location, profiles, phone, email, url } =
+  translate.basics as Basics;
+
+const { city, region } = location;
+
+const SOCIAL_ICONS: Record<string, TAnything> = {
+  GitHub,
+  LinkedIn,
+  X,
+};
+
+const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
+const linkedUrl = linkedInfo?.url;
+
+const githubInfo = profiles.find(({ network }) => network === "GitHub");
+const githubUrl = githubInfo?.url;
+
+const printInfo = [
+  `<a href="mailto:${email}" title="${global.sentences_hero[0]} ${name} ${global.sentences_hero[1]} ${email}" target="_blank" rel="noopener noreferrer">${email}</a>`,
+  `<a href="tel:${phone}" title="${global.sentences_hero[2]} ${name} ${global.sentences_hero[3]} ${phone}" target="_blank" rel="noopener noreferrer">${phone}</a>`,
+  `<a href="${linkedUrl}" title="${global.sentences_hero[6]} ${name} ${global.sentences_hero[8]} ${linkedUrl}" target="_blank" rel="noopener noreferrer">${linkedUrl}</a>`,
+  `<a href="${githubUrl}" title="${global.sentences_hero[6]} ${name} ${global.sentences_hero[8]} ${githubUrl}" target="_blank" rel="noopener noreferrer">${githubUrl}</a>`,
+  `<a href="${url}" title="${global.sentences_hero[7]} ${name} ${global.sentences_hero[8]} ${url}" target="_blank" rel="noopener noreferrer">${url}</a>`,
+]
+  .filter(Boolean)
+  .join("<br><br>");
+---
+
+<Section>
+  <div class="container">
+    <div class="info">
+      <h1>{name}</h1>
+      <h2>{label}</h2>
+      <span>
+        <WorldMap />
+        {city}, {region}
+      </span>
+      <footer class="print">
+        <Fragment set:html={printInfo} />
+      </footer>
+      <footer class="no-print">
+        {
+          email && (
+            <a
+              href={`mailto:${email}`}
+              title={`${global.sentences_hero[0]} ${name} ${global.sentences_hero[1]} ${email}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`${global.sentences_hero[0]} ${name} ${global.sentences_hero[1]} ${email}`}
+            >
+              <Mail />
+            </a>
+          )
+        }
+        {
+          phone && (
+            <a
+              href={`tel:${phone}`}
+              title={`${global.sentences_hero[2]} ${name} ${global.sentences_hero[3]} ${phone}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`${global.sentences_hero[2]} ${name} ${global.sentences_hero[3]} ${phone}`}
+            >
+              <Phone />
+            </a>
+          )
+        }
+        {
+          phone && (
+            <a
+              href={`https://api.whatsapp.com/send/?phone=${phone.substring(1).replace(" ", "")}&text&type=phone_number&app_absent=0`}
+              title={`${global.sentences_hero[4]} ${name} ${global.sentences_hero[3]} ${phone}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`${global.sentences_hero[4]} ${name} ${global.sentences_hero[3]} ${phone}`}
+            >
+              <Whatsapp />
+            </a>
+          )
+        }
+        {
+          phone && (
+            <a
+              href={`https://t.me/${phone.replace(" ", "")}`}
+              title={`${global.sentences_hero[4]} ${name} ${global.sentences_hero[3]} ${phone}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`${global.sentences_hero[4]} ${name} ${global.sentences_hero[3]} ${phone}`}
+            >
+              <Telegram />
+            </a>
+          )
+        }
+        {
+          profiles.map(({ network, url }) => {
+            const Icon = SOCIAL_ICONS[network];
+
+            return (
+              <a
+                href={url}
+                title={`${global.sentences_hero[6]} ${name} ${global.sentences_hero[8]} ${network}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`${global.sentences_hero[6]} ${name} ${global.sentences_hero[8]} ${network}`}
+              >
+                <Icon />
+              </a>
+            );
+          })
+        }
+      </footer>
+    </div>
+    <figure class="no-print">
+      <Image src={image} alt={name} width={128} height={128} loading="eager" />
+    </figure>
+  </div>
+</Section>
+
+<style>
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-right: 32px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    color: #444;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-wrap: balance;
+  }
+
+  img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    width: 128px;
+    border-radius: 16px;
+  }
+
+  span {
+    color: #666;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.85rem;
+    letter-spacing: -0.05rem;
+  }
+
+  footer {
+    color: #555;
+    font-size: 0.65rem;
+    display: flex;
+    gap: 4px;
+    margin-top: 8px;
+  }
+
+  footer a {
+    color: #777;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+    padding: 4px;
+    height: 32px;
+    width: 32px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+
+  footer a:hover {
+    background: #eee;
+    border: 1px solid #ddd;
+  }
+
+  @media (width <= 700px) {
+    .container {
+      flex-direction: column-reverse;
+    }
+
+    .info {
+      justify-content: center;
+      align-items: center;
+      padding-right: 0;
+      text-align: center;
+    }
+
+    figure {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h2 {
+      text-wrap: balance;
+    }
+
+    figure {
+      margin: 0 auto;
+    }
+  }
+</style>
