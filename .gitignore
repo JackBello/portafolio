@@ -7,6 +7,7 @@ dist/
 # dependencies
 node_modules/
 package-lock.yaml
+deno.lock
 
 # logs
 npm-debug.log*

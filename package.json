@@ -1,18 +1,26 @@
 {
-  "name": "jackbello-portafolio",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "@oak/oak": "npm:@jsr/oak__oak@^17.1.4",
-    "@tajpouria/cors": "npm:@jsr/tajpouria__cors@^1.2.1",
-    "astro": "^5.6.2",
-    "hotkeypad": "^1.0.1",
-    "sharp": "^0.34.1"
-  }
+	"name": "portafolio",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"dependencies": {
+		"astro": "^5.6.2",
+		"hotkeypad": "^1.0.1"
+	},
+	"devDependencies": {
+		"@oak/oak": "npm:@jsr/oak__oak@^17.1.4",
+		"@tajpouria/cors": "npm:@jsr/tajpouria__cors@^1.2.1",
+		"astro-compressor": "^1.0.0",
+		"astro-robots-txt": "^1.0.0",
+		"@astrojs/sitemap": "^3.3.0",
+		"astro-seo": "^0.8.4",
+		"autoprefixer": "^10.4.21",
+		"cssnano": "^7.0.6",
+		"sharp": "^0.34.1"
+	}
 }
