@@ -31,14 +31,21 @@
 			"Visitar el portafolio de",
 			"en"
 		],
-		"sentences_projects": ["Ver el proyecto", "Ver código fuente del proyecto"],
-		"words": ["Ver", "Actual"],
+		"sentences_projects": [
+			"Ver el proyecto",
+			"Ver código fuente del proyecto"
+		],
+		"words": [
+			"Ver",
+			"Actual"
+		],
 		"about": "Sobre mí",
 		"experience": "Experiencia laboral",
 		"education": "Educación",
 		"certificates": "Certificados",
 		"projects": "Proyectos",
 		"skills": "Habilidades",
+		"soft_skills": "Habilidades blandas",
 		"languages": "Idiomas",
 		"references": "Referencias",
 		"letter": "Carta de Recomendacion"
@@ -52,10 +59,10 @@
 		"url": "https://jackbello.deno.dev",
 		"summary": "5 años de experiencia como Desarrollador Web. Maquetación, Diseños, Animacion de aplicaciones web. Diseño de base de datos, arquitectura de software, deploy, Api Rest, creación y mantenimiento de backend escalables. Uso de patrones de diseños. Conocimientos de SOLID.",
 		"location": {
-			"address": "",
+			"address": "Calle 6A #88-51",
 			"postalCode": "110821",
 			"city": "Bogota D.C",
-			"region": "Bogota D.C",
+			"region": "Kennedy",
 			"countryCode": "CO",
 			"country": "Colombia",
 			"language": "es"
@@ -151,7 +158,9 @@
 			"startDate": "2012-01-01",
 			"endDate": "2013-01-01",
 			"summary": "Description…",
-			"highlights": ["Awarded 'Volunteer of the Month'"]
+			"highlights": [
+				"Awarded 'Volunteer of the Month'"
+			]
 		}
 	],
 	"education": [
@@ -175,7 +184,7 @@
 		},
 		{
 			"institution": "Instituto Suramericano Simón Bolívar",
-			"url": "https://www.suramericanosimonbolivar.com/",
+			"url": "https://suramericanosimonbolivar.edu.co",
 			"area": "Bachillerato",
 			"studyType": "Secundaria",
 			"startDate": "2018-08-15",
@@ -194,10 +203,24 @@
 	],
 	"certificates": [
 		{
+			"name": "Certificado de trabajo StaffBoom",
+			"date": "2025-04-08",
+			"issuer": "StaffBoom",
+			"file": "/certificados/certificado-de-trabajo-staffboom.pdf",
+			"url": "https://www.staffboom.com/"
+		},
+		{
+			"name": "Certificado de trabajo Creative Toolkit",
+			"date": "2024-08-30",
+			"issuer": "Creative Toolkit",
+			"file": "/certificados/certificado-de-trabajo-creative-toolkit.pdf",
+			"url": "https://www.bypeople.com/creative-toolkit/"
+		},
+		{
 			"name": "Certificado de trabajo SaludMia EPS",
 			"date": "2020-05-11",
 			"issuer": "SaludMia EPS",
-			"file": "/certificados/certificado-de-trabajo.pdf",
+			"file": "/certificados/certificado-de-trabajo-saludmia.pdf",
 			"url": "https://www.saludmia.org"
 		},
 		{
@@ -228,7 +251,10 @@
 		{
 			"name": "HTML",
 			"level": "Master",
-			"keywords": ["Desarrollo Web", "Frontend"]
+			"keywords": [
+				"Desarrollo Web",
+				"Frontend"
+			]
 		},
 		{
 			"name": "CSS",
@@ -244,7 +270,12 @@
 		{
 			"name": "JavaScript",
 			"level": "Master",
-			"keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+			"keywords": [
+				"Desarrollo Web",
+				"Frontend",
+				"Backend",
+				"Fullstack"
+			]
 		},
 		{
 			"name": "Tailwind",
@@ -269,32 +300,57 @@
 		{
 			"name": "Node",
 			"level": "Avanzado",
-			"keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+			"keywords": [
+				"Desarrollo Web",
+				"Backend",
+				"JavaScript",
+				"Servidor"
+			]
 		},
 		{
 			"name": "Deno",
 			"level": "Avanzado",
-			"keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+			"keywords": [
+				"Desarrollo Web",
+				"Backend",
+				"JavaScript",
+				"Servidor"
+			]
 		},
 		{
 			"name": "Npm",
 			"level": "Intermedio",
-			"keywords": ["Administrador de paquetes", "dependencias"]
+			"keywords": [
+				"Administrador de paquetes",
+				"dependencias"
+			]
 		},
 		{
 			"name": "Pnpm",
 			"level": "Intermedio",
-			"keywords": ["Administrador de paquetes", "dependencias"]
+			"keywords": [
+				"Administrador de paquetes",
+				"dependencias"
+			]
 		},
 		{
 			"name": "PHP",
 			"level": "Avanzado",
-			"keywords": ["Desarrollo Web", "Backend", "PHP", "Servidor"]
+			"keywords": [
+				"Desarrollo Web",
+				"Backend",
+				"PHP",
+				"Servidor"
+			]
 		},
 		{
 			"name": "Python",
 			"level": "Basico",
-			"keywords": ["Backend", "Python", "Servidor"]
+			"keywords": [
+				"Backend",
+				"Python",
+				"Servidor"
+			]
 		},
 		{
 			"name": "MySQL",
@@ -309,7 +365,11 @@
 		{
 			"name": "Git",
 			"level": "Intermedio",
-			"keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+			"keywords": [
+				"Control de Versiones",
+				"Colaboración",
+				"Código Fuente"
+			]
 		},
 		{
 			"name": "GitHub",
@@ -334,12 +394,22 @@
 		{
 			"name": "Vite",
 			"level": "Avanzado",
-			"keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "Bundle"]
+			"keywords": [
+				"Desarrollo Web",
+				"Frontend",
+				"JavaScript Library",
+				"Bundle"
+			]
 		},
 		{
 			"name": "WebPack",
 			"level": "Avanzado",
-			"keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "Bundle"]
+			"keywords": [
+				"Desarrollo Web",
+				"Frontend",
+				"JavaScript Library",
+				"Bundle"
+			]
 		},
 		{
 			"name": "React",
@@ -357,6 +427,17 @@
 			"level": "Basico",
 			"keywords": [
 				"Desarrollo Web",
+				"Frontend",
+				"JavaScript Library",
+				"UI",
+				"Dynamic Page"
+			]
+		},
+		{
+			"name": "Svelte",
+			"level": "Intermedio",
+			"keywords": [
+				"Desarrollo de web",
 				"Frontend",
 				"JavaScript Library",
 				"UI",
@@ -426,22 +507,40 @@
 		{
 			"name": "Strapi",
 			"level": "Intermedio",
-			"keywords": ["CMS", "Backend", "Node JS", "Headless"]
+			"keywords": [
+				"CMS",
+				"Backend",
+				"Node JS",
+				"Headless"
+			]
 		},
 		{
 			"name": "Godot",
 			"level": "Intermedio",
-			"keywords": ["GameDev", "Games", "Graphics"]
+			"keywords": [
+				"GameDev",
+				"Games",
+				"Graphics"
+			]
 		},
 		{
 			"name": "Poo",
 			"level": "Avanzado",
-			"keywords": ["Desarrollo", "Frontend", "Backend", "Paradigma"]
+			"keywords": [
+				"Desarrollo",
+				"Frontend",
+				"Backend",
+				"Paradigma"
+			]
 		},
 		{
 			"name": "Api Rest",
 			"level": "Avanzado",
-			"keywords": ["Desarrollo", "Backend", "Arquitecura"]
+			"keywords": [
+				"Desarrollo",
+				"Backend",
+				"Arquitecura"
+			]
 		},
 		{
 			"name": "UUID",
@@ -487,6 +586,23 @@
 			]
 		}
 	],
+	"soft_skills": [
+		{
+			"name": "Comunicacion acertiva"
+		},
+		{
+			"name": "Trabajo en equipo"
+		},
+		{
+			"name": "Resolucion de problemas"
+		},
+		{
+			"name": "Analisis de problemas"
+		},
+		{
+			"name": "Atencion al detalle"
+		}
+	],
 	"languages": [
 		{
 			"language": "Español",
@@ -500,7 +616,10 @@
 	"interests": [
 		{
 			"name": "Wildlife",
-			"keywords": ["Ferrets", "Unicorns"]
+			"keywords": [
+				"Ferrets",
+				"Unicorns"
+			]
 		}
 	],
 	"references": [
@@ -534,7 +653,12 @@
 			"name": "Staffboom - Inzsone - R.E. Chaix",
 			"isActive": true,
 			"description": "El rediseño completo del sitio de R.E. Chaix, una compañia de seguros. Se hizo un diseño completamente nuevo, con un enfoque en la usabilidad y la experiencia del usuario. Se utilizo un diseño responsivo, para que el sitio se vea bien en todos los dispositivos. Se implementaron nuevas tecnologias como Astro, Tailwind.",
-			"highlights": ["Insurance", "Headless WP", "Astro", "Tailwind"],
+			"highlights": [
+				"Insurance",
+				"Headless WP",
+				"Astro",
+				"Tailwind"
+			],
 			"url": "https://rechaixinsurance.com/",
 			"github": ""
 		},
@@ -542,7 +666,11 @@
 			"name": "ByPeople - Quote Maker",
 			"isActive": true,
 			"description": "Quote maker es un generador de diseños automaticos que usa frases de diferentes topicos, puedes generar diseños de forma infinitas. Descargarlos, editarlos o compartirlos en tus redes sociales.",
-			"highlights": ["Quotes", "Design", "Edition"],
+			"highlights": [
+				"Quotes",
+				"Design",
+				"Edition"
+			],
 			"url": "https://www.bypeople.com/quote-maker/",
 			"github": ""
 		},
@@ -550,7 +678,11 @@
 			"name": "ByPeople - Post Sheduler",
 			"isActive": true,
 			"description": "Post Scheduler es un potente manejador de redes sociales donde puedes crear publicaciones para tus multiples redes, donde puedes cargar imagenes, videos, usar fotos, gifs, generar diseños automaticos,   o usar el generador de textos potenciado con AI. Puedes compartir tu publicacion en multiples redes sociales o agendarla para una fecha en especifico.",
-			"highlights": ["Networks", "Social Media Management", "Powered with AI"],
+			"highlights": [
+				"Networks",
+				"Social Media Management",
+				"Powered with AI"
+			],
 			"url": "https://www.bypeople.com/maker/scheduler",
 			"github": ""
 		},

@@ -1,26 +1,27 @@
 export interface Global {
-  footer: string
+  footer: string;
   hotkeypad: {
-    placeholder: string
-    section_0: string
-    title_0: string
-    section_1: string
-    title_1: string
-  },
-  sentences_letter: string[]
-  sentences_references: string[]
-  sentences_hero: string[]
-  sentences_projects: string[]
-  words: string[]
-  about: string
-  experience: string
-  education: string
-  certificates: string
-  projects: string
-  skills: string
-  languages: string
-  references: string
-  letter: string
+    placeholder: string;
+    section_0: string;
+    title_0: string;
+    section_1: string;
+    title_1: string;
+  };
+  sentences_letter: string[];
+  sentences_references: string[];
+  sentences_hero: string[];
+  sentences_projects: string[];
+  words: string[];
+  about: string;
+  experience: string;
+  education: string;
+  certificates: string;
+  projects: string;
+  soft_skills: string;
+  skills: string;
+  languages: string;
+  references: string;
+  letter: string;
 }
 
 export interface CV {
@@ -92,6 +93,10 @@ interface Skills {
   name: string;
   level: string;
   keywords: Array<string>;
+}
+
+interface SoftSkills {
+  name: string;
 }
 
 interface Awards {

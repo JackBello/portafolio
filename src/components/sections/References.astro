@@ -15,7 +15,7 @@ const global = translate.global as Global;
 const references = translate.references as References[];
 ---
 
-<Section title={global.references}>
+<Section title={global.references} class="no-print">
   <ul>
     {
       references.map(({ email, name, phone, reference }) => {

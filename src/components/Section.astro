@@ -1,16 +1,16 @@
 ---
-// se ejecuta en el servidor o en build time <----
-const { title } = Astro.props
+interface Props {
+  title: string;
+  class?: string;
+}
+
+const { title, class: className } = Astro.props;
 ---
 
-<section>
+<section class={className}>
   {title && <h2>{title}</h2>}
   <slot />
 </section>
-
-<script>
-  // se ejecuta en el cliente <----
-</script>
 
 <style>
   section {
